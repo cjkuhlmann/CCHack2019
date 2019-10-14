@@ -7,7 +7,7 @@ The pi will constantly take readings and try to send them to the server. If conn
 
 The server will take input from the pi and then update its grid of devices with each device's data.
 
-##In a real-world scenario
+## In a real-world scenario
 If this was to run in a real-world scenario then the PIs ssould upload data every 5-10 mins allowing time for all the data to be processed. Additionally GPS and radio communication would be used to map can communitate with the PIs.
 Data for detecting fires would be collected on each upload but only every hour would the data be added to the history of each device. This is to save storage and processing however on  a larger system it may be suitable to store all data received.
 
